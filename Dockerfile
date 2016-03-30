@@ -31,4 +31,5 @@ COPY run.sh /usr/src/ghost/
 RUN chmod +x run.sh
 
 EXPOSE 80
+EXPOSE 443
 CMD ["./run.sh"]
